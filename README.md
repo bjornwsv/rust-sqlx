@@ -7,7 +7,7 @@ In order to setup the database, you can use the following command with Docker
 installed:
 
 ```
-$ docker run -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_USER=dbuser -e POSTGRES_DB=bookstore  -p 5432:5432 postgres:1
+$ docker run -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_USER=dbuser -e POSTGRES_DB=bookstore  -p 5432:5432 postgres:16
 ```
 
 > Note!
